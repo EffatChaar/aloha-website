@@ -1,1 +1,1 @@
-document.querySelector('p').style.color = "coral";
+document.querySelector('p').style.color = "blue";

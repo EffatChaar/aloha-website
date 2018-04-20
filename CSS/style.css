@@ -5,12 +5,13 @@
 
 
 .container {
+    height: 70px;
     display: flex;
     justify-content: space-around;
-    flex-flow: wrap;
 }
 .aloha-logo {
-    max-width: 120px;
+
+
 }
 .bin-logo {
     justify-content: flex-end;
@@ -18,23 +19,88 @@
 
 }
 
-.nav {
-    justify-content: center;
-    color: red;
-}
-
 .banner {
-    background: url(../images/banner-girl.png) no-repeat center top,
+    background: url(../images/banner-girl.png) no-repeat center 70px,
                 url(../images/flower-bkgd.jpg) repeat-x top;
-    height: 400px;
+    height: 500px;
     background-size: 200px, cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+
+
+
+.categories {
+    display: flex;
+    height: 80vh;
+    flex-wrap: wrap;
+    background-size: cover;
+
+    
+    
+
+}
+
+
+
+.mens {
+    background: url(../images/mens-category.jpg) center;
+    
+}
+
+.trends {
+    background: url(../images/trends-category.jpg) center;
+    
+}
+
+.glasses {
+    background: url(../images/glasses-category.jpg);
+    
+}
+
+.sale {
+    background: url(../images/sale-category.jpg);
+    
+
+}
+
+.bags {
+    background: url(../images/bags-category.jpg);
+
+}
+
+.womens {
+    background: url(../images/womens-category.jpg);
+}
+.rect {
+    background-size: cover;
+    width: 50%;
+    flex-wrap: wrap;
+    
+}
+.product {
+    background-size: cover;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.nav a {
+    color: coral;
+}
 
 
 /*body { font-family: sans-serif; }*/
 
-.carousel {
+/*.carousel {
   background: #EEE;
 }
 
@@ -52,14 +118,14 @@
 }
 
 /* cell number */
-.carousel-cell:before {
+/*.carousel-cell:before {
   display: block;
   text-align: center;
   content: counter(carousel-cell);
   line-height: 200px;
   font-size: 80px;
   color: white;
-}
+}*/
 
 
 

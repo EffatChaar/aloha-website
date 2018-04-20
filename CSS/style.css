@@ -1,30 +1,66 @@
-html,
-body {
-    font-family: 'Raleway Light';
-    font-size: 16px;
-    width: 600px
- 
-}
-
-* {
+/* mobile first */
+/** {
     box-sizing: border-box;
+}*/
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.aloha-logo {
+    max-width: 120px;
+}
+.bin-logo {
+    justify-content: flex-end;
+    padding-top: 20px;
+
 }
 
-
-
-
+.nav {
+    justify-content: center;
+    color: red;
+}
 
 .banner {
     background: url(../images/banner-girl.png) no-repeat center top,
-                url(../images/flower-bkgd.jpg) repeat-x top center;
-    background-size: 200px, cover;
+                url(../images/flower-bkgd.jpg) repeat-x top;
     height: 400px;
-    position: relative;
+    background-size: 200px, cover;
 }
 
-.banner-text {
-    text-align: center;
+
+
+/*body { font-family: sans-serif; }*/
+
+.carousel {
+  background: #EEE;
 }
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
 
 
 @font-face {
@@ -122,9 +158,5 @@ body {
     font-weight: normal;
     font-style: italic;
 }
-.container {
-    background-color: black;
-    font-family: 'Raleway';
-    background-size: cover;
-}
+
 

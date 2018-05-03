@@ -505,26 +505,18 @@ button:active {
 .socialmedia_name{
 	display:none;
 }
-/*end of footer section*/
-/* End of mobile version*/
 
-
-
-/* Breakpoints:tablet*/
 @media screen and (min-width: 600px) {
 
-html {
+	html {
 	font-size: 16px;
-}
+	}
 
-h2 {
+	h2 {
 	font-size: 2.4rem;
-}
+	}
 
-
-
-/*header section*/
-.header{
+	.header{
 	padding-left: 0.6rem;
 	padding-right: 1rem;
 	height: 5.2rem;
@@ -697,9 +689,7 @@ button{
 	bottom: 2.64rem;
 }
 
-/*end of sign up section*/
 
-/*footer section*/
 .footer {
 	display: flex;
 	flex-direction: row;
@@ -742,13 +732,7 @@ button{
 	color: white;
 }
 
-/*end of footer section*/
-   
-
-/* end of Breakpoints:tablet*/
-
-/* Breakpoints:desktop*/
-
+}
 
 @media screen and (min-width: 1240px) {
 
@@ -873,9 +857,6 @@ button{
 	padding-left: 1.5rem;
 }
 
-/*end of signup section*/
-
-/*footer section*/
 
 .footer{
 	display: flex;
@@ -908,5 +889,5 @@ button{
 	visibility: visible;
 }
 
-
+}
 /* end of Breakpoints:desktop*/
